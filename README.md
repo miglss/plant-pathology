@@ -7,7 +7,7 @@ Classify the category of foliar diseases in apple trees
 - Albumentations 🖼️
 - Wandb 📊
 ## Task description 📋
-For image of apple tree leaf, need to identify the label. There are 4 possible labels: healthy, rust, scab and combinations
+For image of apple tree leaf, need to identify the label. There are 4 possible labels: healthy, rust, scab or combinations
 ## Proposed solution 💡
 Efficientnet_b3 was fine-tuned by replacing the head with a custom classifier, the rest of the layers were frozen. 
 
